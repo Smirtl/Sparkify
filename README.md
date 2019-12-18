@@ -34,9 +34,9 @@ PySpark Machine Learning Imports
 
 
 ## Files
-`Sparkify.ipynb` - Jupyter Notebook for with exploratory analysis and modeling  
-`README.md` - This readme file  
+* `Sparkify.ipynb` - Jupyter Notebook for with exploratory analysis and modeling  
+* `README.md` - This readme file  
 
 ## Result Summary
-The results can be viewed in this summary blog post on MEDIUM:
+The results can be viewed in this summary blog post on MEDIUM:  
 https://medium.com/@smirtl/wouldnt-you-want-to-know-in-advance-if-a-subscriber-is-about-to-leave-you-729e06c763db
