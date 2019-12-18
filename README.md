@@ -8,34 +8,34 @@ The data (mini-set) is provided directly in the Udacity environment and will not
 
 ## Python Libraries
 General Imports  
-`import numpy as np`  
-`import pandas as pd`  
-`import matplotlib.pyplot as plt`  
-`import datetime`  
+* `import numpy as np`  
+* `import pandas as pd`  
+* `import matplotlib.pyplot as plt`  
+* `import datetime`  
 
 PySpark SQL Imports  
-`from pyspark.sql import SparkSession`  
-`from pyspark.sql.functions import isnan, count, when, col, desc, udf, col, sort_array, asc, avg`  
-`from pyspark.sql.functions import concat, explode, lit, min, max, split, datediff, to_date`  
-`from pyspark.sql.functions import sum as Fsum`  
-`from pyspark.sql.window import Window`  
-`from pyspark.sql.types import IntegerType, DateType`  
+* `from pyspark.sql import SparkSession`  
+* `from pyspark.sql.functions import isnan, count, when, col, desc, udf, col, sort_array, asc, avg`  
+* `from pyspark.sql.functions import concat, explode, lit, min, max, split, datediff, to_date`  
+* `from pyspark.sql.functions import sum as Fsum`  
+* `from pyspark.sql.window import Window`  
+* `from pyspark.sql.types import IntegerType, DateType`  
 
 PySpark Machine Learning Imports  
-`from pyspark.ml import Pipeline`  
-`from pyspark.ml.classification import LogisticRegression, DecisionTreeClassifier, DecisionTreeClassificationModel`  
-`from pyspark.ml.classification import RandomForestClassificationModel, RandomForestClassifier, NaiveBayes, GBTClassifier`  
-`from pyspark.ml.evaluation import MulticlassClassificationEvaluator, BinaryClassificationEvaluator`  
-`from pyspark.ml.feature import CountVectorizer, IDF, Normalizer, PCA, RegexTokenizer, StandardScaler, StopWordsRemover`  
-`from pyspark.ml.feature import StringIndexer, VectorAssembler, VectorIndexer, StandardScaler, Normalizer, MinMaxScaler`  
-`from pyspark.ml.regression import LinearRegression`  
-`from pyspark.ml.tuning import CrossValidator, ParamGridBuilder`  
-`from pyspark.mllib.evaluation import MulticlassMetrics`  
+* `from pyspark.ml import Pipeline`  
+* `from pyspark.ml.classification import LogisticRegression, DecisionTreeClassifier, DecisionTreeClassificationModel`  
+* `from pyspark.ml.classification import RandomForestClassificationModel, RandomForestClassifier, NaiveBayes, GBTClassifier`  
+* `from pyspark.ml.evaluation import MulticlassClassificationEvaluator, BinaryClassificationEvaluator`  
+* `from pyspark.ml.feature import CountVectorizer, IDF, Normalizer, PCA, RegexTokenizer, StandardScaler, StopWordsRemover`  
+* `from pyspark.ml.feature import StringIndexer, VectorAssembler, VectorIndexer, StandardScaler, Normalizer, MinMaxScaler`  
+* `from pyspark.ml.regression import LinearRegression`  
+* `from pyspark.ml.tuning import CrossValidator, ParamGridBuilder`  
+* `from pyspark.mllib.evaluation import MulticlassMetrics`  
 
 
 ## Files
 `Sparkify.ipynb` - Jupyter Notebook for with exploratory analysis and modeling  
-`README.md` This readme file  
+`README.md` - This readme file  
 
 ## Result Summary
 The results can be viewed in this summary blog post on MEDIUM:
