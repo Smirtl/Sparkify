@@ -16,7 +16,7 @@ General Imports
 PySpark SQL Imports  
 * `from pyspark.sql import SparkSession`  
 * `from pyspark.sql.functions import isnan, count, when, col, desc, udf, col, sort_array, asc, avg`  
-* `from pyspark.sql.functions import concat, explode, lit, min, max, split, datediff, to_date`  
+* `from pyspark.sql.functions import concat, explode, lit, min, max, split, datediff, to_date, countDistinct`  
 * `from pyspark.sql.functions import sum as Fsum`  
 * `from pyspark.sql.window import Window`  
 * `from pyspark.sql.types import IntegerType, DateType`  
