@@ -11,6 +11,7 @@ General Imports
 * `import numpy as np`  
 * `import pandas as pd`  
 * `import matplotlib.pyplot as plt`  
+* `import seaborn as sns`
 * `import datetime`  
 
 PySpark SQL Imports  
@@ -31,7 +32,7 @@ PySpark Machine Learning Imports
 * `from pyspark.ml.regression import LinearRegression`  
 * `from pyspark.ml.tuning import CrossValidator, ParamGridBuilder`  
 * `from pyspark.mllib.evaluation import MulticlassMetrics`  
-
+* `from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score`
 
 ## Files
 * `Sparkify.ipynb` - Jupyter Notebook for with exploratory analysis and modeling  
